@@ -1,0 +1,358 @@
+/* ============================================================
+   1100px (Large Tablet / Small Laptop)
+============================================================ */
+
+@media (max-width:1100px) {
+
+    .hero-right {
+        padding: 0;
+    }
+
+    .form {
+        max-width: 480px;
+        width: 100%;
+        top: 212px;
+        right: 40px;
+    }
+
+    .business,
+    .agency {
+        flex-direction: row;
+        text-align: center;
+        flex-wrap: nowrap;
+    }
+
+    .business-img img,
+    .agency-img img {
+        width: 450px;
+    }
+
+    .business-header,
+    .agency-header {
+        max-width: 600px;
+        text-align: left;
+    }
+}
+
+@media (max-width:1086px) {
+    .hero-left {
+        max-width: 50%;
+    }
+}
+
+/* ============================================================
+   1024px (Tablet Landscape)
+============================================================ */
+
+@media (max-width:1024px) {
+
+    h2 {
+        font-size: 42px;
+    }
+
+    .hero-section {
+        padding: 60px 20px;
+        background-size: cover;
+    }
+
+    .hero-left,
+    .hero-right {
+        width: 100%;
+        text-align: left;
+    }
+
+    .business-img img,
+    .agency-img img {
+        width: 420px;
+    }
+
+    .hero-wrapper {
+        padding: 0;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-right {
+        width: 104%;
+        display: inline;
+    }
+
+    .hero-left {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .brand-list {
+        width: 100%;
+    }
+
+    .form {
+        margin-top: 30px;
+        position: static;
+        max-width: 96%;
+    }
+
+    .custom-left img {
+        width: 45%;
+    }
+}
+
+/* ============================================================
+   992px (Tablet)
+============================================================ */
+
+@media (max-width:992px) {
+
+    h2 {
+        font-size: 38px;
+    }
+
+    h3 {
+        font-size: 32px;
+    }
+
+    .brand-list {
+        /* justify-content: center; */
+        gap: 24px;
+    }
+
+    .streaming-section {
+        padding: 80px 0;
+    }
+
+    .Strategus-agency-icons {
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .Strategus-list {
+        width: 150px;
+        margin: 0;
+        text-align: center;
+    }
+}
+
+/* ============================================================
+   768px (Mobile Large / Tablet Portrait)
+============================================================ */
+
+@media (max-width:768px) {
+
+    h2 {
+        font-size: 44px;
+    }
+
+    h3 {
+        font-size: 45px;
+    }
+
+    .business-section,
+    .brand-section,
+    .business-section,
+    .agency.section,
+    .custom-section,
+    .Strategus-agency-section {
+        padding: 60px 0;
+    }
+
+    .form {
+        width: 100%;
+        padding: 22px;
+        max-width: 90%;
+    }
+
+    .Strategus img {
+        width: 230px;
+    }
+
+    .hero-right {
+        width: 111%;
+    }
+
+    .hero-left {
+        padding: 0;
+    }
+
+    .business,
+    .agency {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .business-img img,
+    .agency-img img {
+        width: 100%;
+    }
+
+    .brand-list {
+        justify-content: left;
+        gap: 36px;
+    }
+
+    /* .Strategus-agency-icons {
+        width: 510px;
+    } */
+
+    .Strategus-agency {
+        display: inline;
+    }
+
+    .Strategus-agency-icons {
+        justify-content: left;
+        gap: 0;
+    }
+
+    .Strategus-list {
+        text-align: center;
+        margin-bottom: 10px;
+        margin-right: 18px;
+        width: calc(33.33% - 18px);
+    }
+
+    .col-left,
+    .col-right {
+        width: 100%;
+    }
+
+    .custom-left img {
+        position: static;
+        width: 100%;
+        height: auto;
+    }
+
+    .custom-right {
+        max-width: 100%;
+        left: 0;
+        padding: 0;
+        margin: 40px 0 0;
+        text-align: left;
+    }
+
+    .custom-right h2 {
+        margin: 17px 0;
+    }
+
+    .brand h4 {
+        margin-bottom: 25.2px;
+        font-size: 34px;
+    }
+
+    .blue-line img {
+        height: 80px;
+    }
+
+    .brand-list .list img {
+        width: 80px;
+    }
+
+    .business-header,
+    .agency-header {
+        margin-top: 40px;
+        max-width: 723px;
+        padding: 0;
+    }
+
+    .agency {
+        flex-direction: column-reverse;
+    }
+
+    footer img {
+        width: 150px;
+    }
+}
+
+
+/* ============================================================
+   480px–390px (Small Mobile)
+============================================================ */
+
+@media (max-width:480px) {
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .hero-section {
+        padding: 60px 0;
+    }
+
+    .form {
+        padding: 16px;
+        left: 16px;
+        top: 440px;
+    }
+
+    /* .form-row {
+        flex-direction: column;
+        gap: 0;
+    } */
+
+    .Strategus-agency-icons {
+        justify-content: center;
+        gap: 30px;
+        margin: 25px 0;
+        font-size: 18px;
+    }
+
+    .blue-line img {
+        height: 4px;
+    }
+
+    .blue-line {
+        flex-direction: column-reverse;
+        gap: 0;
+        margin-bottom: 25.2px;
+    }
+
+    .input-field,
+    textarea.input-field {
+        font-size: 14px;
+    }
+
+    .Strategus-agency h5 {
+        font-size: 14px;
+    }
+
+    .brand h4 {
+        font-size: 28px;
+    }
+
+    .hero-wrapper {
+        padding: 0 20px;
+    }
+
+    .list {
+        align-items: center;
+        width: 42%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .brand-list {
+        justify-content: center;
+    }
+
+    .agency-header h2 {
+        margin: 17px 0;
+    }
+
+    .Strategus-list {
+        margin-bottom: 20px;
+        width: calc(50% - -120px);
+    }
+
+    .submit-button {
+        padding: 6px 90px;
+        font-size: 16px;
+        width: 229px;
+    }
+}
